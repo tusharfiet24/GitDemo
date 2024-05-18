@@ -21,6 +21,14 @@ public class day1 {
 		Assert.assertTrue(true);
 	}
 	
+	@Test
+	public void Demo2() {
+		System.out.println("hello");
+		System.out.println("hello1");
+		System.out.println("hello2");
+		Assert.assertTrue(true);
+	}
+	
 	@AfterSuite
 	public void Afsuite() {
 		// 
